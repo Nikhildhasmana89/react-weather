@@ -16,7 +16,11 @@ export const WeatherProvider = (props) => {
     setdata(response);
   };
 
-  return <WeatherContext.Provider
-  value={{searchcity,fetchdata,data,setsearchcity}}
-  >{props.children}</WeatherContext.Provider>;
+  return (
+    <WeatherContext.Provider
+      value={{ searchcity, fetchdata, data, setsearchcity }}
+    >
+      {props.children}
+    </WeatherContext.Provider>
+  );
 };

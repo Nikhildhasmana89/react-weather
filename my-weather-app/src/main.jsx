@@ -7,10 +7,7 @@ import { WeatherProvider } from "./Context/Weather.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <WeatherProvider>
-
-
       <App />
     </WeatherProvider>
-    
   </StrictMode>
 );
