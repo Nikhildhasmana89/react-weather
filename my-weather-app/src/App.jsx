@@ -1,26 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Input from './components/Input'
-import Card from './components/Card'
-import Button from './components/Button'
-import { useWeather, useWeather } from './context/Weather'
-import { WeatherApi } from './Api/Api'
+import React from "react";
+import Card from "./Components/Card";
+import Inputdata from "./Components/Inputdata";
+import { Buttondata } from "./Components/Buttondata";
+import { useWeather } from "./Context/Weather";
 
 function App() {
-  const useWeather = useWeather()
+  const weather = useWeather();
+  console.log(weather);
   
-
   return (
-    <>
-      <h1>My Weather app</h1>
-      <Input/>
-      <Button onClick = {WeatherApi.fetchdata} />
-      <Card/>
-      <Button/>
-    </>
-  )
+    <div className="flex flex-col items-center">
+      <h1 className="text-3xl sm:text-4xl font-semibold text-blue-600 drop-shadow-md text-center mb-6">
+        My Weather App
+      </h1>
+
+      <div className="flex gap-3 mb-6">
+        <Inputdata />
+        <Buttondata
+          onClick={weather.fetchdata}
+          value="Search"
+        />
+      </div>
+
+      <Card />
+    </div>
+  );
 }
 
-export default App
+export default App;
