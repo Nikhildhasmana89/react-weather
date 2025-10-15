@@ -1,4 +1,4 @@
-🌦️ Weather App
+#🌦️ Weather App
 
 A clean and responsive Weather Forecasting App built using React and the Fetch API.
 It enables users to search for any city and instantly view real-time weather information such as temperature, humidity, and sky conditions.
@@ -7,7 +7,13 @@ It enables users to search for any city and instantly view real-time weather inf
 <img width="570" height="892" alt="image" src="https://github.com/user-attachments/assets/f963784b-23ce-48d2-97a6-a076637285bb" />
 
 
-🚀 Features
+
+
+
+
+
+
+#🚀 Features
 
 🌍 Real-time Weather Data — Fetches live weather details from a weather API.
 
@@ -19,7 +25,7 @@ It enables users to search for any city and instantly view real-time weather inf
 
 🎨 Modern Design — Styled with Tailwind CSS for a clean look.
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 
 Frontend: React.js
 
@@ -29,7 +35,7 @@ Styling:  Tailwind CSS
 
 Language: JavaScript (ES6+)
 
-💡 How It Works
+#💡 How It Works
 
 Enter a city name in the search bar.
 
@@ -37,7 +43,7 @@ Click Search to fetch the data.
 
 Instantly view the city’s weather details.
 
-⚙️ Setup Instructions
+#⚙️ Setup Instructions
 
 # Clone this repository
 git clone https://github.com/your-username/weather-app.git
