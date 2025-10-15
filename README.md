@@ -44,7 +44,7 @@ It enables users to search for any city and instantly view real-time weather inf
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Nikhildhasmana89/react-weather.git
 
 # Navigate into the project directory
 cd weather-app
